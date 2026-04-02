@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>מתכוני הגלידה של משפחת דהן</title>
+  <meta name="theme-color" content="#5f54d8">
+  <meta name="description" content="ספר מתכוני גלידה משפחתי לנינג׳ה קרימי">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <style>
+    :root { --text:#23222b; --muted:#69657b; --card:rgba(255,255,255,.96); --fit:#eefaf0; --fit-strong:#2d6a4f; --lite:#eef6ff; --lite-strong:#245ea8; --regular:#fff5e8; --regular-strong:#9a6700; --shadow:0 12px 30px rgba(60,45,120,.10); --hero1:#fef3d2; --hero2:#f7d9f3; --hero3:#dff3ff; --accent:#5f54d8; --fav:#ffb000; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; color:var(--text); line-height:1.75; background:radial-gradient(circle at top right, rgba(255,222,173,.6), transparent 30%), radial-gradient(circle at top left, rgba(255,182,193,.35), transparent 35%), linear-gradient(180deg, #f9f7ff 0%, #fff 100%); }
+    .wrap { max-width:1120px; margin:0 auto; padding:18px 16px 60px; }
+    .hero { overflow:hidden; background:linear-gradient(135deg,var(--hero1),var(--hero2) 55%,var(--hero3)); border-radius:30px; padding:28px 22px 24px; box-shadow:var(--shadow); border:1px solid rgba(255,255,255,.7); }
+    .logo-bar { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+    .logo-pill { display:inline-flex; align-items:center; justify-content:center; min-width:110px; padding:10px 16px; border-radius:999px; background:rgba(255,255,255,.78); font-weight:700; color:#5a3d91; border:1px solid rgba(255,255,255,.8); }
+    .logo-pill .mark { font-size:1.2rem; margin-left:8px; }
+    .hero-logo { max-width:230px; width:100%; border-radius:24px; display:block; margin:18px auto 10px; box-shadow:0 10px 24px rgba(90,61,145,.12); }
+    h1 { margin:8px 0 8px; font-size:2.15rem; line-height:1.2; text-align:center; }
+    .subtitle { margin:0 auto; color:#4f4b62; font-size:1.04rem; max-width:820px; text-align:center; }
+    .hero-art,.hero-badges { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:16px; }
+    .hero-art { font-size:2rem; }
+    .badge { background:rgba(255,255,255,.82); padding:8px 12px; border-radius:999px; font-size:.95rem; color:#524d65; border:1px solid rgba(255,255,255,.75); }
+    .panel { background:var(--card); border-radius:22px; padding:18px 16px 14px; box-shadow:var(--shadow); margin-top:18px; border:1px solid rgba(240,235,255,.9); }
+    h2 { margin:0 0 10px; font-size:1.35rem; }
+    .search-row { display:grid; grid-template-columns:1fr; gap:10px; }
+    .search-box { width:100%; padding:13px 14px; border-radius:14px; border:1px solid #ddd8ff; background:#fff; font-size:1rem; outline:none; }
+    .filters { display:flex; gap:8px; flex-wrap:wrap; }
+    .filter-btn { border:1px solid #ddd8ff; background:#f6f4ff; color:#4d4880; border-radius:999px; padding:8px 12px; font-size:.95rem; cursor:pointer; }
+    .filter-btn.active { background:var(--accent); color:white; border-color:var(--accent); }
+    .toc-grid { display:grid; grid-template-columns:1fr; gap:12px; }
+    .toc-subtitle { color:var(--muted); margin:0 0 10px; font-size:.98rem; }
+    .toc-group { margin-top:12px; border-top:1px dashed #e6dfff; padding-top:12px; }
+    .toc-group:first-of-type { margin-top:0; border-top:0; padding-top:0; }
+    .toc-group-title { display:inline-block; margin-bottom:10px; padding:6px 10px; border-radius:999px; font-size:.92rem; font-weight:700; }
+    .toc-group-title.fit { background:var(--fit); color:var(--fit-strong); }
+    .toc-group-title.lite { background:var(--lite); color:var(--lite-strong); }
+    .toc-group-title.regular { background:var(--regular); color:var(--regular-strong); }
+    .toc-links { display:grid; grid-template-columns:1fr; gap:8px; }
+    .toc-link { text-decoration:none; color:#39407a; background:#f2f3ff; border:1px solid #e6e8ff; border-radius:14px; padding:10px 12px; display:flex; align-items:center; gap:10px; font-size:.98rem; }
+    .toc-emoji { width:28px; text-align:center; font-size:1.15rem; flex:0 0 auto; }
+    .section-banner { width:100%; border-radius:18px; margin-bottom:12px; display:block; }
+    .section-header { margin-top:28px; margin-bottom:12px; padding:16px 18px; border-radius:20px; box-shadow:var(--shadow); }
+    .section-header.fit { background:var(--fit); } .section-header.lite { background:var(--lite); } .section-header.regular { background:var(--regular); }
+    .cards { display:grid; grid-template-columns:1fr; gap:18px; }
+    .card { background:var(--card); border-radius:22px; padding:16px; box-shadow:var(--shadow); border:1px solid rgba(240,235,255,.9); }
+    .card.hidden { display:none; }
+    .image-wrap { position:relative; margin:-16px -16px 14px; overflow:hidden; border-radius:22px 22px 14px 14px; }
+    .photo { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; background:linear-gradient(135deg,#f3efff,#fff7df); }
+    .favorite-btn { position:absolute; top:12px; left:12px; border:0; width:42px; height:42px; border-radius:999px; background:rgba(255,255,255,.9); color:#7b719d; font-size:1.4rem; cursor:pointer; box-shadow:0 4px 14px rgba(0,0,0,.12); }
+    .favorite-btn.active { color:var(--fav); }
+    .card-top { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+    .art { width:72px; height:72px; border-radius:20px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,#fff7df,#f3efff); font-size:1.9rem; flex:0 0 auto; }
+    h3 { margin:0 0 4px; font-size:1.2rem; }
+    .program { display:inline-block; background:#eef2ff; color:#334; border-radius:999px; padding:6px 10px; font-size:.92rem; }
+    .desc { margin:8px 0 10px; color:var(--muted); }
+    .cols { display:grid; grid-template-columns:1fr; gap:10px; }
+    h4 { margin:8px 0 6px; font-size:1rem; }
+    ul,ol { margin:0; padding-right:1.2em; }
+    .tip { margin-top:12px; padding:10px 12px; background:#fff8e8; border-radius:12px; }
+    .back { margin-top:10px; text-align:left; }
+    .back a { color:#5d5abf; text-decoration:none; font-size:.95rem; }
+    .empty { display:none; padding:18px; border-radius:16px; background:#fff7ef; color:#7a4d00; margin-top:16px; }
+    .footer { text-align:center; color:var(--muted); margin-top:28px; font-size:.95rem; }
+    @media (min-width:760px) {
+      .cards { grid-template-columns:1fr 1fr; }
+      .cols { grid-template-columns:1fr 1fr; }
+      .toc-grid { grid-template-columns:1fr 1fr 1fr; }
+      .search-row { grid-template-columns:1fr auto; align-items:center; }
+    }
+  </style>
+</head>
+<body>
+  <div id="top" class="wrap">
+    <section class="hero">
+      <div class="logo-bar"><div class="logo-pill"><span class="mark">🍦</span> Dahan’s</div></div>
+      <img class="hero-logo" src="assets/logo.png" alt="Dahan's logo">
+      <h1>מתכוני הגלידה של משפחת דהן</h1>
+      <p class="subtitle">ספר מתכונים משפחתי לנינג׳ה קרימי, מוכן ל-GitHub Pages כ-PWA. יש כאן תמונות מקוריות שנוצרו במיוחד לספר, חיפוש, סינון, מועדפים ותוכן עניינים לחיץ.</p>
+      <div class="hero-art">🍨 🍋 🍓 ☕ 🌰 🥜 🍊 🍯 🫐</div>
+      <div class="hero-badges">
+        <span class="badge">PWA מוכן</span><span class="badge">GitHub Pages</span><span class="badge">חיפוש מהיר</span><span class="badge">מועדפים ⭐</span><span class="badge">עובד באייפון</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>חיפוש וסינון</h2>
+      <div class="search-row">
+        <input id="searchInput" class="search-box" type="search" placeholder="לחפש למשל: לימון, פיסטוק, קפה, תות, אוכמניות...">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">הכול</button>
+          <button class="filter-btn" data-filter="fit">מתכונים לפטיניים</button>
+          <button class="filter-btn" data-filter="lite">לייט</button>
+          <button class="filter-btn" data-filter="regular">המתכונים הרגילים</button>
+          <button class="filter-btn" data-filter="favorites">מועדפים ⭐</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>תוכן עניינים</h2>
+      <p class="toc-subtitle">לוחצים על כל מתכון ועוברים ישר אליו.</p>
+      <div class="toc-grid">
+        <div class="toc-group"><div class="toc-group-title fit">מתכונים לפטיניים</div><div class="toc-links"><a class="toc-link recipe-link" href="#fit-vanilla" data-title="גלידת וניל אמריקאית עם דבש"><span class="toc-emoji">🍯🍦</span><span>גלידת וניל אמריקאית עם דבש</span></a>
+<a class="toc-link recipe-link" href="#fit-strawberry" data-title="גלידת תות עם דבש וחלבון"><span class="toc-emoji">🍓🍯</span><span>גלידת תות עם דבש וחלבון</span></a>
+<a class="toc-link recipe-link" href="#fit-lemon-gelato" data-title="ג׳לטו לימון עם דבש"><span class="toc-emoji">🍋🇮🇹</span><span>ג׳לטו לימון עם דבש</span></a>
+<a class="toc-link recipe-link" href="#fit-lemon-mint-sorbet" data-title="סורבה לימון-נענע עם דבש"><span class="toc-emoji">🍋🌿</span><span>סורבה לימון-נענע עם דבש</span></a>
+<a class="toc-link recipe-link" href="#fit-tropical-sorbet" data-title="סורבה מנגו-בננה-מלון עם דבש וקינמון"><span class="toc-emoji">🥭🍌🍈</span><span>סורבה מנגו-בננה-מלון עם דבש וקינמון</span></a>
+<a class="toc-link recipe-link" href="#fit-apple-natural" data-title="גלידת תפוח אדום טבעית"><span class="toc-emoji">🍎✨</span><span>גלידת תפוח אדום טבעית</span></a></div></div>
+        <div class="toc-group"><div class="toc-group-title lite">לייט</div><div class="toc-links"><a class="toc-link recipe-link" href="#lite-limoncello" data-title="גלידת לימונצ׳לו לייט"><span class="toc-emoji">🍋✨</span><span>גלידת לימונצ׳לו לייט</span></a>
+<a class="toc-link recipe-link" href="#lite-coconut-pineapple" data-title="סורבה קוקוס-אננס"><span class="toc-emoji">🥥🍍</span><span>סורבה קוקוס-אננס</span></a>
+<a class="toc-link recipe-link" href="#lite-strawberry-blueberry-sorbet" data-title="סורבה תות-אוכמניות"><span class="toc-emoji">🍓🫐</span><span>סורבה תות-אוכמניות</span></a>
+<a class="toc-link recipe-link" href="#lite-basil-lemon" data-title="ג׳לטו בזיליקום-לימון"><span class="toc-emoji">🌿🍋</span><span>ג׳לטו בזיליקום-לימון</span></a></div></div>
+        <div class="toc-group"><div class="toc-group-title regular">המתכונים הרגילים</div><div class="toc-links"><a class="toc-link recipe-link" href="#reg-vanilla" data-title="גלידת וניל אמריקאית קלאסית"><span class="toc-emoji">🍦🇺🇸</span><span>גלידת וניל אמריקאית קלאסית</span></a>
+<a class="toc-link recipe-link" href="#reg-dulce" data-title="גלידת ריבת חלב"><span class="toc-emoji">🍯🤎</span><span>גלידת ריבת חלב</span></a>
+<a class="toc-link recipe-link" href="#reg-coffee" data-title="גלידת קפה"><span class="toc-emoji">☕🍨</span><span>גלידת קפה</span></a>
+<a class="toc-link recipe-link" href="#reg-pistachio-white" data-title="גלידת פיסטוק ושוקולד לבן"><span class="toc-emoji">🌰🍫</span><span>גלידת פיסטוק ושוקולד לבן</span></a>
+<a class="toc-link recipe-link" href="#reg-pistachio" data-title="גלידת פיסטוק בסיסית"><span class="toc-emoji">💚🌰</span><span>גלידת פיסטוק בסיסית</span></a>
+<a class="toc-link recipe-link" href="#reg-orange" data-title="גלידת תפוז-וניל"><span class="toc-emoji">🍊🍦</span><span>גלידת תפוז-וניל</span></a>
+<a class="toc-link recipe-link" href="#reg-peanut-bamba" data-title="גלידת חמאת בוטנים ובמבה"><span class="toc-emoji">🥜🧡</span><span>גלידת חמאת בוטנים ובמבה</span></a>
+<a class="toc-link recipe-link" href="#reg-beet" data-title="גלידת סלק קרמית"><span class="toc-emoji">🍠💗</span><span>גלידת סלק קרמית</span></a>
+<a class="toc-link recipe-link" href="#reg-limoncello" data-title="גלידת לימונצ׳לו קלאסית"><span class="toc-emoji">🍋🍸</span><span>גלידת לימונצ׳לו קלאסית</span></a>
+<a class="toc-link recipe-link" href="#reg-spicy-chocolate" data-title="גלידת שוקולד חריף"><span class="toc-emoji">🍫🌶</span><span>גלידת שוקולד חריף</span></a></div></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>הוראות בסיס לנינג׳ה קרימי</h2>
+      <ul>
+        <li>מקפיאים תמיד ישירות במיכל של הקרימי, לא בכלי אחר.</li>
+        <li>מיישרים את החלק העליון לפני ההקפאה.</li>
+        <li>מקפיאים 12–24 שעות.</li>
+        <li>אם המרקם פירורי, מוסיפים כף חלב או מים ועושים Re-Spin נוסף.</li>
+        <li>ל-Mix-In יוצרים גומה במרכז, מוסיפים תוספת, ואז מפעילים Mix-In.</li>
+      </ul>
+    </section>
+
+    <section id="fit" class="section-header fit"><img class="section-banner" src="assets/fit-section.png" alt="מתכונים לפטיניים"><h2>מתכונים לפטיניים</h2><p>הגרסאות הטבעיות יותר — עם דבש או בלי ממתיקים, בטעם נקי יותר.</p></section>
+    <section class="cards">
+    <article id="fit-vanilla" class="card recipe-card" data-title="גלידת וניל אמריקאית עם דבש" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/vanilla.png" alt="גלידת וניל אמריקאית עם דבש" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-vanilla">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍯🍦</div>
+        <div>
+          <h3>גלידת וניל אמריקאית עם דבש</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">גרסה טבעית יותר, עם דבש במקום סוכר או חלב מרוכז.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>200 מ״ל שמנת מועשרת או שמנת מתוקה 38%</li><li>¾ כוס חלב</li><li>2–3 כפות דבש</li><li>1 כפית תמצית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים שמנת, חלב, דבש, וניל ומלח עד שהתערובת חלקה.</li><li>טועמים — התערובת צריכה להיות מעט יותר מתוקה ממה שרוצים בסוף.</li><li>שופכים למיכל של הנינג׳ה קרימי ומיישרים למשטח חלק.</li><li>מקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin. אם צריך, מוסיפים כף חלב ועושים Re-Spin נוסף.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להוסיף חצי חלבון אם רוצים טיפה יותר אווריריות, אבל זה לא חובה.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="fit-strawberry" class="card recipe-card" data-title="גלידת תות עם דבש וחלבון" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/strawberry.png" alt="גלידת תות עם דבש וחלבון" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-strawberry">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍓🍯</div>
+        <div>
+          <h3>גלידת תות עם דבש וחלבון</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">תותית, קרמית וקלה יותר — עם דבש במקום סוכר.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1.5–2 כוסות תותים קפואים</li><li>¾ כוס חלב</li><li>200 מ״ל שמנת מועשרת</li><li>2–3 כפות דבש</li><li>1 חלבון</li><li>קורט מלח</li><li>אופציונלי: ½ כפית וניל או מעט לימון</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים תותים, חלב, שמנת ודבש עד למחית חלקה.</li><li>מוסיפים חלבון וטוחנים עוד כמה שניות.</li><li>שופכים למיכל, מיישרים למעלה ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אם המרקם יוצא רך מדי, מחזירים לעוד 30–60 דקות למקפיא.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="fit-lemon-gelato" class="card recipe-card" data-title="ג׳לטו לימון עם דבש" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lemon.png" alt="ג׳לטו לימון עם דבש" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-lemon-gelato">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍋🇮🇹</div>
+        <div>
+          <h3>ג׳לטו לימון עם דבש</h3>
+          <div class="program">תוכנית מומלצת: Gelato</div>
+        </div>
+      </div>
+      <p class="desc">לימוני, חלק ואלגנטי — גרסה איטלקית עם דבש לרכות נוספת.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1 כוס חלב</li><li>½ כוס שמנת 38%</li><li>⅓ כוס מיץ לימון טרי</li><li>גרידת לימון מלימון אחד</li><li>4 כפות סוכר</li><li>1 כף דבש</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים חלב, שמנת, סוכר ודבש עד שהסוכר נמס.</li><li>מוסיפים מיץ לימון, גרידת לימון ומלח ומערבבים היטב.</li><li>שופכים למיכל ומקפיאים 12–24 שעות.</li><li>מפעילים Gelato ואז עושים Re-Spin אחד לפחות.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> הדבש עוזר לשמור על מרקם קרמי גם אחרי אחסון במקפיא.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="fit-lemon-mint-sorbet" class="card recipe-card" data-title="סורבה לימון-נענע עם דבש" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lemon.png" alt="סורבה לימון-נענע עם דבש" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-lemon-mint-sorbet">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍋🌿</div>
+        <div>
+          <h3>סורבה לימון-נענע עם דבש</h3>
+          <div class="program">תוכנית מומלצת: Sorbet</div>
+        </div>
+      </div>
+      <p class="desc">סורבה רענן מאוד עם נענע בתוך הבלילה.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס מיץ לימון טרי</li><li>1½ כוס מים</li><li>4 כפות דבש</li><li>1–2 כפות סוכר או עוד מעט דבש לפי הטעם</li><li>גרידת לימון מלימון אחד</li><li>כמה עלי נענע</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים או טוחנים את כל המצרכים יחד.</li><li>טועמים — צריך להיות חמוץ-מתוק חזק יותר מהתוצאה הרצויה אחרי ההקפאה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Sorbet ואז Re-Spin לפי הצורך.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> ל-Mix-In מתאים במיוחד שוקולד לבן, קוקוס או עוגיות חמאה.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="fit-tropical-sorbet" class="card recipe-card" data-title="סורבה מנגו-בננה-מלון עם דבש וקינמון" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lite-section.png" alt="סורבה מנגו-בננה-מלון עם דבש וקינמון" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-tropical-sorbet">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🥭🍌🍈</div>
+        <div>
+          <h3>סורבה מנגו-בננה-מלון עם דבש וקינמון</h3>
+          <div class="program">תוכנית מומלצת: Sorbet</div>
+        </div>
+      </div>
+      <p class="desc">טרופי עם טוויסט חמים ועדין של קינמון.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1 כוס מנגו חתוך</li><li>1 בננה בשלה</li><li>1 כוס מלון חתוך</li><li>2–3 כפות דבש</li><li>¼ כפית קינמון</li><li>קורט מלח</li><li>אופציונלי: כפית מיץ לימון</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים הכל למחית חלקה מאוד.</li><li>טועמים — הקינמון צריך להיות רק ברקע.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Sorbet ואז Re-Spin. אם צריך, מוסיפים כף מים ועושים שוב.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> הבננה מאזנת את המלון ומוסיפה קרמיות.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="fit-apple-natural" class="card recipe-card" data-title="גלידת תפוח אדום טבעית" data-category="fit">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lite-section.png" alt="גלידת תפוח אדום טבעית" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="fit-apple-natural">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍎✨</div>
+        <div>
+          <h3>גלידת תפוח אדום טבעית</h3>
+          <div class="program">תוכנית מומלצת: Lite Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">ללא סוכר וללא דבש — מתבססת על מתיקות טבעית של פרי בשל.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>2 תפוחים אדומים</li><li>1–2 בננות בשלות מאוד</li><li>¼ כפית קינמון</li><li>קורט מלח</li><li>אופציונלי: כמה טיפות לימון</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>קולפים וחותכים את התפוחים. אפשר לרכך מעט במיקרו 2–3 דקות לקבלת מרקם טוב יותר.</li><li>טוחנים תפוחים, בננות, קינמון ומלח למחית חלקה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Lite Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אם לא רוצים לרכך את התפוח, חשוב לטחון חזק מאוד ולהשתמש ביותר בננה.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    </section>
+
+    <section id="lite" class="section-header lite"><img class="section-banner" src="assets/lite-section.png" alt="לייט"><h2>לייט</h2><p>מתכונים קלילים יותר, עם פחות שומן או בסיס פירותי רענן.</p></section>
+    <section class="cards">
+    <article id="lite-limoncello" class="card recipe-card" data-title="גלידת לימונצ׳לו לייט" data-category="lite">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lemon.png" alt="גלידת לימונצ׳לו לייט" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="lite-limoncello">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍋✨</div>
+        <div>
+          <h3>גלידת לימונצ׳לו לייט</h3>
+          <div class="program">תוכנית מומלצת: Lite Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">גרסה קלילה יותר, עם פחות שומן ועדיין טעם לימוני ברור.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס חלב</li><li>¼ כוס שמנת מועשרת</li><li>2–3 כפות חלב מרוכז</li><li>2–3 כפות לימונצ׳לו</li><li>½ כפית וניל</li><li>קורט מלח</li><li>אופציונלי: גרידת לימון</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים חלב, שמנת מועשרת, חלב מרוכז, לימונצ׳לו, וניל ומלח.</li><li>טועמים — הטעם צריך להיות מעט יותר מתוק ומעט יותר לימוני ממה שרוצים בסוף.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Lite Ice Cream ואז Re-Spin.</li><li>אם המרקם רך מדי, מחזירים למקפיא לעוד שעה ומעבדים שוב.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> לא לעבור 3 כפות לימונצ׳לו כדי לא לפגוע בהקפאה.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="lite-coconut-pineapple" class="card recipe-card" data-title="סורבה קוקוס-אננס" data-category="lite">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lite-section.png" alt="סורבה קוקוס-אננס" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="lite-coconut-pineapple">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🥥🍍</div>
+        <div>
+          <h3>סורבה קוקוס-אננס</h3>
+          <div class="program">תוכנית מומלצת: Sorbet</div>
+        </div>
+      </div>
+      <p class="desc">טרופי, קליל ומרענן, כמעט כמו חופשה בכפית.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>2 כוסות אננס חתוך</li><li>½ כוס קרם קוקוס</li><li>2–3 כפות דבש</li><li>1 כף מיץ לימון</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים הכול למחית חלקה.</li><li>טועמים ומאזנים מתיקות.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Sorbet ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להוסיף קוקוס קלוי ב-Mix-In.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="lite-strawberry-blueberry-sorbet" class="card recipe-card" data-title="סורבה תות-אוכמניות" data-category="lite">
+      <div class="image-wrap">
+        <img class="photo" src="assets/berries.png" alt="סורבה תות-אוכמניות" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="lite-strawberry-blueberry-sorbet">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍓🫐</div>
+        <div>
+          <h3>סורבה תות-אוכמניות</h3>
+          <div class="program">תוכנית מומלצת: Sorbet + Mix-In</div>
+        </div>
+      </div>
+      <p class="desc">סורבה פירותי חד, צבעוני ומעלף — מעולה גם עם אוכמניות קפואות במיקס.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>2 כוסות תותים טריים</li><li>1.5 כוס אוכמניות טריות</li><li>½ כוס קרם קוקוס</li><li>½ כוס מים</li><li>4–5 כפות דבש</li><li>2 כפות מיץ לימון</li><li>קורט מלח</li><li>חופן אוכמניות קפואות ל-Mix-In</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים תותים, אוכמניות, קרם קוקוס, מים, דבש, לימון ומלח עד למחית חלקה.</li><li>טועמים — צריך להיות מתוק-חמצמץ ברור, קצת יותר חזק מהתוצאה הסופית.</li><li>מחלקים למיכלי הקרימי, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Sorbet ואז Re-Spin.</li><li>יוצרים גומה, מוסיפים אוכמניות קפואות ומפעילים Mix-In.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אוכמניות קפואות עדיפות ל-Mix-In כי הן לא מרככות את הסורבה.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="lite-basil-lemon" class="card recipe-card" data-title="ג׳לטו בזיליקום-לימון" data-category="lite">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lite-section.png" alt="ג׳לטו בזיליקום-לימון" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="lite-basil-lemon">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🌿🍋</div>
+        <div>
+          <h3>ג׳לטו בזיליקום-לימון</h3>
+          <div class="program">תוכנית מומלצת: Gelato</div>
+        </div>
+      </div>
+      <p class="desc">מפתיע, רענן וממש ברמת מסעדה.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1 כוס חלב</li><li>½ כוס שמנת 38%</li><li>⅓ כוס מיץ לימון</li><li>4–5 עלי בזיליקום</li><li>4 כפות סוכר</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים או מערבבים הכול היטב, כולל הבזיליקום.</li><li>שופכים למיכל ומקפיאים 12–24 שעות.</li><li>מפעילים Gelato ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אל תגזימו בבזיליקום — הוא צריך להיות עדין ולא להשתלט.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    </section>
+
+    <section id="regular" class="section-header regular"><img class="section-banner" src="assets/regular-section.png" alt="המתכונים הרגילים"><h2>המתכונים הרגילים</h2><p>הגרסאות העשירות, הקרמיות והמפנקות יותר.</p></section>
+    <section class="cards">
+    <article id="reg-vanilla" class="card recipe-card" data-title="גלידת וניל אמריקאית קלאסית" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/vanilla.png" alt="גלידת וניל אמריקאית קלאסית" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-vanilla">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍦🇺🇸</div>
+        <div>
+          <h3>גלידת וניל אמריקאית קלאסית</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">הגרסה העשירה והקרמית, בסגנון אמריקאי.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1 כוס שמנת מתוקה 38%</li><li>¾ כוס חלב</li><li>¼ כוס חלב מרוכז (≈ 80–100 גרם)</li><li>2 כפות סוכר</li><li>1 כפית תמצית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים שמנת, חלב, חלב מרוכז, סוכר, וניל ומלח עד חלק.</li><li>טועמים — זה צריך להיות מעט יותר מתוק ממה שרוצים בסוף.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin. אם צריך, מוסיפים כף חלב ועושים שוב.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> תוספות מעולות: עוגיות, שוקולד צ׳יפס, או swirl של ריבת חלב.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-dulce" class="card recipe-card" data-title="גלידת ריבת חלב" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/regular-section.png" alt="גלידת ריבת חלב" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-dulce">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍯🤎</div>
+        <div>
+          <h3>גלידת ריבת חלב</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">קרמית, עשירה ומתאימה מאוד ל-swirl נוסף בסוף.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת 38%</li><li>¾ כוס חלב</li><li>3–4 כפות ריבת חלב</li><li>1 כף סוכר (לא חובה)</li><li>½ כפית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים שמנת, חלב, ריבת חלב, וניל ומלח עד שהריבת חלב נטמעת לגמרי.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להוסיף עוד ריבת חלב ב-Mix-In קצר לקבלת פסים יפים.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-coffee" class="card recipe-card" data-title="גלידת קפה" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/coffee.png" alt="גלידת קפה" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-coffee">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">☕🍨</div>
+        <div>
+          <h3>גלידת קפה</h3>
+          <div class="program">תוכנית מומלצת: Gelato / Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">קפה קרמי עם אספרסו אמיתי.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת 38%</li><li>¾ כוס חלב</li><li>¼ כוס חלב מרוכז</li><li>1–2 שוטים אספרסו קרים</li><li>½ כפית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מכינים אספרסו ונותנים לו להתקרר.</li><li>מערבבים עם שמנת, חלב, חלב מרוכז, וניל ומלח.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Gelato או Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> לגרסת מוקה, מוסיפים שוקולד ב-Mix-In.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-pistachio-white" class="card recipe-card" data-title="גלידת פיסטוק ושוקולד לבן" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/pistachio.png" alt="גלידת פיסטוק ושוקולד לבן" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-pistachio-white">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🌰🍫</div>
+        <div>
+          <h3>גלידת פיסטוק ושוקולד לבן</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">עשירה, יוקרתית ומאוד גלידריה.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת 38%</li><li>¾ כוס חלב</li><li>80 גרם שוקולד לבן</li><li>3 כפות פיסטוקים טבעיים</li><li>1 כף סוכר או דבש</li><li>½ כפית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>ממיסים שוקולד לבן.</li><li>טוחנים פיסטוקים עם מעט חלב עד שמתקבל קרם.</li><li>מערבבים עם שאר המצרכים עד אחידות מלאה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להוסיף פיסטוקים קצוצים ב-Mix-In לקראנץ׳.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-pistachio" class="card recipe-card" data-title="גלידת פיסטוק בסיסית" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/pistachio.png" alt="גלידת פיסטוק בסיסית" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-pistachio">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">💚🌰</div>
+        <div>
+          <h3>גלידת פיסטוק בסיסית</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">פיסטוק נקי ופשוט, בלי שוקולד לבן.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת מועשרת או שמנת 38%</li><li>½ כוס חלב</li><li>3–4 כפות פיסטוקים טבעיים קלופים</li><li>3 כפות סוכר או 2–3 כפות דבש</li><li>½ כפית וניל</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים פיסטוקים עם קצת חלב עד למשחה.</li><li>מוסיפים את שאר המצרכים ומערבבים היטב.</li><li>שופכים למיכל ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להשרות את הפיסטוקים 10 דקות במים חמים לפני הטחינה למרקם חלק יותר.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-orange" class="card recipe-card" data-title="גלידת תפוז-וניל" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/regular-section.png" alt="גלידת תפוז-וניל" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-orange">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍊🍦</div>
+        <div>
+          <h3>גלידת תפוז-וניל</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream / Lite Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">כמו ארטיק תפוז-שמנת, אבל קרמי יותר.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס מיץ תפוזים</li><li>¾ כוס שמנת מועשרת</li><li>½ כוס חלב</li><li>3–4 כפות סוכר</li><li>1 כפית תמצית וניל</li><li>גרידת תפוז (אופציונלי)</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים את כל המצרכים היטב.</li><li>טועמים — הטעם צריך להיות טיפה יותר מתוק מהתוצאה הרצויה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אל תגזימו עם מיץ התפוזים כדי לא לפגוע בקרמיות.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-peanut-bamba" class="card recipe-card" data-title="גלידת חמאת בוטנים ובמבה" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/peanut-bamba.png" alt="גלידת חמאת בוטנים ובמבה" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-peanut-bamba">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🥜🧡</div>
+        <div>
+          <h3>גלידת חמאת בוטנים ובמבה</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream + Mix-In</div>
+        </div>
+      </div>
+      <p class="desc">הטעם הישראלי-אמריקאי המושלם — עם מיקס במבה קפואה.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת 38%</li><li>¾ כוס חלב</li><li>¼ כוס חלב מרוכז</li><li>2–3 כפות חמאת בוטנים</li><li>½ כפית וניל</li><li>קורט מלח</li><li>חופן במבה קפואה ל-Mix-In</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים שמנת, חלב, חלב מרוכז, חמאת בוטנים, וניל ומלח עד שהתערובת חלקה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li><li>עושים גומה במרכז, מוסיפים את הבמבה הקפואה ומפעילים Mix-In.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> אפשר להוסיף גם שוקולד צ׳יפס או swirl של דבש.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-beet" class="card recipe-card" data-title="גלידת סלק קרמית" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/regular-section.png" alt="גלידת סלק קרמית" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-beet">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍠💗</div>
+        <div>
+          <h3>גלידת סלק קרמית</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">מפתיעה, צבעונית ומיוחדת — ממש לא סלט.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>1 סלק בינוני מבושל או אפוי</li><li>¾ כוס שמנת 38%</li><li>½ כוס חלב</li><li>3–4 כפות סוכר או 2–3 כפות דבש</li><li>½ כפית וניל</li><li>קורט מלח</li><li>אופציונלי: כפית מיץ לימון או תפוז</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>טוחנים את הסלק עם החלב עד חלק לגמרי.</li><li>מוסיפים שמנת, סוכר או דבש, וניל ומלח ומערבבים.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> טיפת לימון מאזנת את הטעם האדמתי ומרימה את כל הקינוח.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-limoncello" class="card recipe-card" data-title="גלידת לימונצ׳לו קלאסית" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/lemon.png" alt="גלידת לימונצ׳לו קלאסית" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-limoncello">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍋🍸</div>
+        <div>
+          <h3>גלידת לימונצ׳לו קלאסית</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">עשירה, קרמית, לימונית ומבוגרת — ברמה של קינוח מסעדה.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת מתוקה 38%</li><li>½ כוס חלב</li><li>¼ כוס חלב מרוכז</li><li>2–3 כפות לימונצ׳לו</li><li>1 כפית תמצית וניל</li><li>גרידת לימון מלימון אחד</li><li>1–2 כפות מיץ לימון</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים שמנת, חלב, חלב מרוכז, לימונצ׳לו, וניל, גרידה, מיץ לימון ומלח.</li><li>טועמים — הטעם צריך להיות מעט יותר מתוק ומעט יותר לימוני מהתוצאה הרצויה.</li><li>שופכים למיכל, מיישרים ומקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li><li>אם צריך, מוסיפים כף חלב ועושים Re-Spin נוסף.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> לא לעבור 3 כפות לימונצ׳לו כדי שהבסיס יקפא כמו שצריך.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    
+    <article id="reg-spicy-chocolate" class="card recipe-card" data-title="גלידת שוקולד חריף" data-category="regular">
+      <div class="image-wrap">
+        <img class="photo" src="assets/regular-section.png" alt="גלידת שוקולד חריף" loading="lazy">
+        <button class="favorite-btn" type="button" aria-label="הוספה למועדפים" data-favorite="reg-spicy-chocolate">☆</button>
+      </div>
+      <div class="card-top">
+        <div class="art">🍫🌶</div>
+        <div>
+          <h3>גלידת שוקולד חריף</h3>
+          <div class="program">תוכנית מומלצת: Ice Cream</div>
+        </div>
+      </div>
+      <p class="desc">שוקולד עמוק עם טוויסט קטן של צ׳ילי.</p>
+      <div class="cols">
+        <div><h4>מצרכים</h4><ul><li>¾ כוס שמנת 38%</li><li>¾ כוס חלב</li><li>2 כפות קקאו</li><li>¼ כוס חלב מרוכז</li><li>קורט צ׳ילי טחון</li><li>קורט מלח</li></ul></div>
+        <div><h4>אופן הכנה</h4><ol><li>מערבבים הכול היטב עד שהקקאו נטמע.</li><li>טועמים — הצ׳ילי צריך להיות עדין מאוד.</li><li>מקפיאים 12–24 שעות.</li><li>מפעילים Ice Cream ואז Re-Spin.</li></ol></div>
+      </div>
+      <div class="tip"><strong>טיפ:</strong> שווה להתחיל עם ממש מעט צ׳ילי.</div>
+      <div class="back"><a href="#top">↑ חזרה למעלה</a></div>
+    </article>
+    </section>
+
+    <div id="emptyState" class="empty">לא נמצאו מתכונים שמתאימים לחיפוש או לסינון שבחרת.</div>
+    <div class="footer">בתיאבון ממשפחת דהן 🍦</div>
+  </div>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const cards = Array.from(document.querySelectorAll('.recipe-card'));
+    const tocLinks = Array.from(document.querySelectorAll('.recipe-link'));
+    const filterButtons = Array.from(document.querySelectorAll('.filter-btn'));
+    const emptyState = document.getElementById('emptyState');
+    let currentFilter = 'all';
+    function getFavorites() { try { return JSON.parse(localStorage.getItem('dahansFavorites') || '[]'); } catch (e) { return []; } }
+    function setFavorites(f) { localStorage.setItem('dahansFavorites', JSON.stringify(f)); }
+    function refreshFavoriteButtons() {
+      const favs = getFavorites();
+      document.querySelectorAll('[data-favorite]').forEach(btn => {
+        const id = btn.getAttribute('data-favorite');
+        const active = favs.includes(id);
+        btn.classList.toggle('active', active);
+        btn.textContent = active ? '★' : '☆';
+      });
+    }
+    function applyFilters() {
+      const q = (searchInput.value || '').trim().toLowerCase();
+      const favs = getFavorites();
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const title = (card.dataset.title || '').toLowerCase();
+        const text = card.innerText.toLowerCase();
+        const category = card.dataset.category;
+        const matchesSearch = !q || title.includes(q) || text.includes(q);
+        const matchesCategory = currentFilter === 'all' || category === currentFilter || (currentFilter === 'favorites' && favs.includes(card.id));
+        const show = matchesSearch && matchesCategory;
+        card.classList.toggle('hidden', !show);
+        if (show) visibleCount += 1;
+      });
+      tocLinks.forEach(link => {
+        const targetId = (link.getAttribute('href') || '').replace('#','');
+        const card = document.getElementById(targetId);
+        link.style.display = (card && !card.classList.contains('hidden')) ? 'flex' : 'none';
+      });
+      emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentFilter = btn.dataset.filter;
+        filterButtons.forEach(b => b.classList.toggle('active', b === btn));
+        applyFilters();
+      });
+    });
+    searchInput.addEventListener('input', applyFilters);
+    document.querySelectorAll('[data-favorite]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-favorite');
+        let favs = getFavorites();
+        favs = favs.includes(id) ? favs.filter(x => x !== id) : [...favs, id];
+        setFavorites(favs);
+        refreshFavoriteButtons();
+        applyFilters();
+      });
+    });
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+    }
+    refreshFavoriteButtons();
+    applyFilters();
+  </script>
+</body>
+</html>
